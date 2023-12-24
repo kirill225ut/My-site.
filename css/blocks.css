@@ -1,0 +1,28 @@
+body{
+	background-color: skyblue;
+}
+p{
+	background-color: silver;
+	color: blue;
+	font-size: 50px;
+	display: inline;
+}   
+#second{
+	background-color: lightpink;
+	width: 600px;
+	height:800px;
+	border-image: linear-gradient(yellow, blue, orange) 30;
+	border-width: 30px;
+	border-style: solid;
+	margin: 50px;
+}
+#third, #fourth{
+	background-color: yellow;
+	width: 700px;
+	height: 200px;
+	margin: 50px;
+	padding: 20px;
+	border-image: linear-gradient(yellow, green, orange);
+	border-width: 30px;
+	border-style: solid;
+}
